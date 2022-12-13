@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    font-family: sans-serif;
+}
+
+.navbar .navbar-brand{
+    font-size: 25px;
+    color: #dc4f72;
+    font-weight: 650;
+}
+.nav-line{
+    width: 0%;
+    height: 3px;
+    background-color: #dc4f72;
+    transition: all 0.5s;
+}
+.nav-item:hover .nav-line{
+    width: 50%;
+    opacity: 1;
+}
+.icon-expand .fa-bars{
+    align-items: center;
+}
+.navbar-toggler-icon {
+    background-color: #dc4f72;
+    color: #fff;
+}
+.nav-item.active .nav-link{
+    color: #dc4f72;
+}
+.nav-item .nav-link{
+    color: #2c3038;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+.nav-item .nav-link:hover{
+    color: #dc4f72;
+}
+.navbar-expand-lg{
+    justify-content: space-between;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.Head_button button{
+    transition: 0.3s cubic-bezier(0, 0, 0.37, 1.14);
+    display: inline-block;
+    line-height: 52px;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px 30px;
+    text-transform: uppercase;
+    color: #dc4f72;
+    border: 1px solid #dc4f72;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.Head_button:hover button{
+    background-color: #dc4f72;
+    color: #fff;
+}
